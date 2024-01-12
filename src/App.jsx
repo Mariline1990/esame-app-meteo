@@ -87,8 +87,8 @@ function App() {
             {weatherData && (
               <div className="border border-2 rounded-4" style={{ textAlign: "center" }}>
                 <img
-                  style={{ width: "60px" }}
-                  src={`http://openweathermap.org/img/wn/${weatherData.icon}.png`}
+                  style={{}}
+                  src={`http://openweathermap.org/img/wn/${weatherData.icon}@4x.png`}
                   alt="Weather Icon"
                 />
 
